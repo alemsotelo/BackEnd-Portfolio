@@ -32,7 +32,7 @@
             border-radius: 100%;
             box-shadow: 1px 1px 1px grey;
             top: 550px;
-            left: 50%;
+            left: 35%;
         }
 }
 @media(min-width:906px) {
@@ -53,5 +53,25 @@
         box-shadow: 1px 1px 1px grey;
         top: 600px;
         left: 33%;
+    }
+}
+@media(max-width:249px) {
+    #fotoperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 1px 1px 1px grey;
+        top: 680px;
+        left: 35%;
+    }
+}
+@media(max-width:149px) {
+    #fotoperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 1px 1px 1px grey;
+        top: 750px;
+        left: 35%;
     }
 }
